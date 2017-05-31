@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:yablogs="urn:yandex-blogs" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+  <channel>
+    <link>https://yandex.ru/blogs/rss/search?text=clojure</link>
+    <title>clojure — Яндекс.Поиск по блогам</title>
+    <image>
+      <url>https://img.yandex.net/i/logo100x43.png</url>
+      <title>Поиск Яндекса по блогам</title>
+      <link>https://yandex.ru/blogs</link>
+      <width>100</width>
+      <height>43</height>
+    </image>
+    <ttl>60</ttl>
+    <generator>yandex.ru/blogs</generator>
+    <webMaster>support@blogs.yandex.ru</webMaster>
+    <copyright>noindex</copyright>
+    <description>Результаты поиска Яндекса по блогам и форумам по запросу: «clojure»</description>
+    <yablogs:count>61</yablogs:count>
+    <yablogs:more>https://yandex.ru/blogs/rss/search?p=1&amp;text=clojure</yablogs:more>
+    <item>
+      <yablogs:author>nihirash</yablogs:author>
+      <title>Подкасты для разработчиков на Lisp/Clojure?</title>
+      <pubDate>Wed, 31 May 2017 13:27:10 GMT</pubDate>
+      <guid>https://www.linux.org.ru/forum/development/13451999</guid>
+      <link>https://www.linux.org.ru/forum/development/13451999</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=https%3A%2F%2Fwww.linux.org.ru%2Fforum%2Fdevelopment%2F13451999</wfw:commentRss>
+      <yablogs:journal url="http://www.linux.org.ru/">Linux.org.ru: Форум - Development</yablogs:journal>
+      <description>(Ремарка «Близкие по духу тоже катят, но все же хочется про смайликовые языки»). (PS «Можно [не] тыкать в корявость лиспопоста»). &lt;b&gt;clojure&lt;/b&gt;, lisp, отдых.</description>
+    </item>
+    <item>
+      <author>http://twitter.com/bormotov</author>
+      <yablogs:author>Twitter / bormotov</yablogs:author>
+      <title></title>
+      <pubDate>Wed, 31 May 2017 06:51:50 GMT</pubDate>
+      <guid isPermaLink="false" />
+      <link>http://twitter.com/bormotov/statuses/869808621118468096</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=http%3A%2F%2Ftwitter.com%2Fbormotov%2Fstatuses%2F869808621118468096</wfw:commentRss>
+      <yablogs:journal url="http://twitter.com/bormotov">Twitter / bormotov</yablogs:journal>
+      <description>@applegovno закинь объявление в #devzen, например. А нужно именно java, или прокатит kotlin, scala, &lt;b&gt;clojure&lt;/b&gt; и прочие jvm-based?</description>
+    </item>
+    <item>
+      <yablogs:author>
+Max.L...@gmail.com</yablogs:author>
+      <title>Re: Во что инвестировать время (в какие технологии) в 2017 ?</title>
+      <pubDate>Tue, 30 May 2017 18:24:10 GMT</pubDate>
+      <guid isPermaLink="false">https://groups.google.com/d/topic/ror2ru/2hdkOK1yvWU</guid>
+      <link>https://groups.google.com/d/msg/ror2ru/2hdkOK1yvWU/rWAKNhIIBwAJ</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=https%3A%2F%2Fgroups.google.com%2Fd%2Fmsg%2Fror2ru%2F2hdkOK1yvWU%2FrWAKNhIIBwAJ</wfw:commentRss>
+      <yablogs:journal url="https://groups.google.com/d/forum/ror2ru">RubyOnRails to russian</yablogs:journal>
+      <description>См. пример выше с &lt;b&gt;Clojure&lt;/b&gt;. &gt; &gt; посмеялся, спасибо =) На всякий случай подскажу: продакшн кода, написанного за деньги и не переписанного через полтора года человеком...</description>
+    </item>
+    <item>
+      <yablogs:author>
+Sergey</yablogs:author>
+      <title>Re: Во что инвестировать время (в какие технологии) в 2017 ?</title>
+      <pubDate>Tue, 30 May 2017 18:24:10 GMT</pubDate>
+      <guid isPermaLink="false">https://groups.google.com/d/topic/ror2ru/2hdkOK1yvWU</guid>
+      <link>https://groups.google.com/d/msg/ror2ru/2hdkOK1yvWU/jHevOZ4DBgAJ</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=https%3A%2F%2Fgroups.google.com%2Fd%2Fmsg%2Fror2ru%2F2hdkOK1yvWU%2FjHevOZ4DBgAJ</wfw:commentRss>
+      <yablogs:journal url="https://groups.google.com/d/forum/ror2ru">RubyOnRails to russian</yablogs:journal>
+      <description>См. пример выше с &lt;b&gt;Clojure&lt;/b&gt;. On Saturday, May 20, 2017 at 2:11:57 PM UTC+3, Alexey Petrushin wrote: &gt; &gt; Я все еще в этой группе именно потому-что тут тема коммерсантов сильна.</description>
+    </item>
+    <item>
+      <yablogs:author>Siemargl &lt;nospam@sql.ru&gt;</yablogs:author>
+      <title>Тяпничный бенчмарк CPU (part zero)</title>
+      <pubDate>Tue, 30 May 2017 15:50:40 GMT</pubDate>
+      <guid>http://www.sql.ru/forum/1261520/tyapnichnyy-benchmark-cpu-part-zero</guid>
+      <link>http://www.sql.ru/forum/1261520/tyapnichnyy-benchmark-cpu-part-zero</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=http%3A%2F%2Fwww.sql.ru%2Fforum%2F1261520%2Ftyapnichnyy-benchmark-cpu-part-zero</wfw:commentRss>
+      <yablogs:journal url="http://www.sql.ru/forum/programming">SQL.ru: Программирование</yablogs:journal>
+      <description>Только немного ранее начатую, лучше проработанную и шире охватом языков и тестов. Участники: C, C# .Net Core, C# Mono, C++, &lt;b&gt;Clojure&lt;/b&gt;, Crystal, D, Elixir, F# Mono, Go, Haskell, Java...</description>
+    </item>
+    <item>
+      <yablogs:author>banq</yablogs:author>
+      <title>为什么Kotlin比任何愚蠢的语言更好</title>
+      <pubDate>Tue, 30 May 2017 04:59:26 GMT</pubDate>
+      <guid>http://www.jdon.com/48916</guid>
+      <link>http://www.jdon.com/48916</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=http%3A%2F%2Fwww.jdon.com%2F48916</wfw:commentRss>
+      <yablogs:journal url="http://www.jdon.com/">解道jdon.com</yablogs:journal>
+      <description>Stevey在其博客表达了对kotlin的喜欢： 1.它像Java一样工作。 它不像&lt;b&gt;Clojure&lt;/b&gt;或Scala那样“怪异”。 你可以快速学习。</description>
+    </item>
+    <item>
+      <author>https://jobs.dou.ua/vacancies/?utm_source=jobsrss&amp;search=Python</author>
+      <yablogs:author>Вакансии по запросу «Python» на DOU.ua</yablogs:author>
+      <title>Senior Python Engineer в Attendify, Киев</title>
+      <pubDate>Tue, 30 May 2017 02:58:55 GMT</pubDate>
+      <guid isPermaLink="false">https://jobs.dou.ua/companies/attendify/vacancies/42879/?1494936667</guid>
+      <link>https://jobs.dou.ua/companies/attendify/vacancies/42879/?utm_source=jobsrss</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=https%3A%2F%2Fjobs.dou.ua%2Fcompanies%2Fattendify%2Fvacancies%2F42879%2F%3Futm_source%3Djobsrss</wfw:commentRss>
+      <yablogs:journal url="https://jobs.dou.ua/vacancies/?utm_source=jobsrss&amp;search=Python">Вакансии по запросу «Python» на DOU.ua</yablogs:journal>
+      <description>We run Go servers and use Python a lot, but the most of our codebase is &lt;b&gt;Clojure&lt;/b&gt;. We expect you to work primarily on the Python-side...</description>
+    </item>
+    <item>
+      <author>http://rubyjobs.ru/vacancies</author>
+      <yablogs:author>Вакансии для Ruby- и Rails-разработчиков</yablogs:author>
+      <title>Ruby on Rails разработчик. Valenki Team</title>
+      <pubDate>Tue, 30 May 2017 02:33:57 GMT</pubDate>
+      <guid isPermaLink="false">http://rubyjobs.ru/vacancies/4805</guid>
+      <link>http://feedproxy.google.com/~r/rubyjobsru/~3/65kTGYl-ms8/4805</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=http%3A%2F%2Ffeedproxy.google.com%2F~r%2Frubyjobsru%2F~3%2F65kTGYl-ms8%2F4805</wfw:commentRss>
+      <yablogs:journal url="http://rubyjobs.ru/vacancies">Вакансии для Ruby- и Rails-разработчиков</yablogs:journal>
+      <description>Наши клиенты из Нью-Йорка, Лондона, Цюриха, Стамбула. Делаем митапы в своем городе и выступаем c докладами про React, React Native, Docker, &lt;b&gt;Clojure&lt;/b&gt;, Blockchain.</description>
+    </item>
+    <item>
+      <author>http://lisper.ru/forum/</author>
+      <yablogs:author>Lisper.ru: Форумы</yablogs:author>
+      <title>andy128k: Коммерческая разработка на Lisp</title>
+      <pubDate>Tue, 30 May 2017 00:15:41 GMT</pubDate>
+      <guid>http://lisper.ru/forum/messages/12276</guid>
+      <link>http://lisper.ru/forum/messages/12276</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=http%3A%2F%2Flisper.ru%2Fforum%2Fmessages%2F12276</wfw:commentRss>
+      <yablogs:journal url="http://lisper.ru/forum/">Lisper.ru: Форумы</yablogs:journal>
+      <description>Про Grammarly ходят слухи, что они мигрируют на &lt;b&gt;Clojure&lt;/b&gt;.</description>
+    </item>
+    <item>
+      <author>http://lisper.ru/forum/</author>
+      <yablogs:author>Lisper.ru: Форумы</yablogs:author>
+      <title>Hedin: Коммерческая разработка на Lisp</title>
+      <pubDate>Tue, 30 May 2017 00:15:41 GMT</pubDate>
+      <guid>http://lisper.ru/forum/messages/12266</guid>
+      <link>http://lisper.ru/forum/messages/12266</link>
+      <wfw:commentRss>https://yandex.ru/blogs/rss/search?post=http%3A%2F%2Flisper.ru%2Fforum%2Fmessages%2F12266</wfw:commentRss>
+      <yablogs:journal url="http://lisper.ru/forum/">Lisper.ru: Форумы</yablogs:journal>
+      <description>Есть ли в России коммерческие компании, основной язык разработки которых - Lisp (под Lisp&#x27;ом я подразумеваю Common Lisp, Scheme и &lt;b&gt;Clojure&lt;/b&gt;)?</description>
+    </item>
+  </channel>
+</rss>
