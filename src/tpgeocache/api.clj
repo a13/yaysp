@@ -44,8 +44,7 @@
     (get (cache/hit @address-cache address) address)
     (let [gc (geocode address)]
       (if (:status gc)
-        (do
-          (let [updated-cache (swap! address-cache #(cache/miss % address gc))]
-            (get updated-cache address)))
+        (let [updated-cache (swap! address-cache #(cache/miss % address gc))]
+          (get updated-cache address))
         {:status 500
          :body gc}))))
