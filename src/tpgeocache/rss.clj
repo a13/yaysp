@@ -1,4 +1,4 @@
-(ns yaysp.rss
+(ns tpgeocache.rss
   (:require
    [clojure.data.xml :as c-d-xml]
    [clojure.zip :as c-zip]

@@ -1,7 +1,7 @@
-(ns yaysp.utils
+(ns tpgeocache.utils
   (:require
-   [yaysp.rss :as rss]
-   [yaysp.api :as api]
+   [tpgeocache.rss :as rss]
+   [tpgeocache.api :as api]
    [cemerick.url :as url]))
 
 (defn- calc-stat

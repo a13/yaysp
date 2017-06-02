@@ -1,7 +1,7 @@
-(ns yaysp.handler-test
+(ns tpgeocache.handler-test
   (:require [clojure.test :refer :all]
             [ring.mock.request :as mock]
-            [yaysp.handler :refer :all]))
+            [tpgeocache.handler :refer :all]))
 
 (deftest test-app
   (testing "main route"

@@ -1,6 +1,6 @@
-(ns yaysp.rss-test
+(ns tpgeocache.rss-test
   (:require [clojure.test :refer :all]
-            [yaysp.rss :as rss]))
+            [tpgeocache.rss :as rss]))
 
 (def rss-str
   (slurp "test/data/clojure.xml"))

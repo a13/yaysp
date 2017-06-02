@@ -1,8 +1,8 @@
-(ns yaysp.handler
+(ns tpgeocache.handler
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
             [cheshire.core :as json]
-            [yaysp.utils :as utils]
+            [tpgeocache.api :as api]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
 
 (defn- search-handler
@@ -10,13 +10,13 @@
   {:status 200
    :headers {"Content-Type" "text/json; charset=utf-8"}
    :body
-   (json/generate-string (utils/stat query)
+   (json/generate-string "ddfs"
                          {:pretty true})})
 
 (defroutes app-routes
-  ;; (GET "/" [] "Hello World")
-  (GET "/search" [query] (search-handler query))
-  (route/not-found "Not Found"))
+;;  (GET "/" [] "Hello World")
+  (GET "/search" [query] (search-handler query)
+  (route/not-found "Not Found")))
 
 (def app
   (wrap-defaults

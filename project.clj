@@ -1,4 +1,4 @@
-(defproject yaysp "0.1.0-SNAPSHOT"
+(defproject tpgeocache "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :min-lein-version "2.0.0"
@@ -11,11 +11,11 @@
                  [org.clojure/data.xml "0.0.8"]
                  [com.cemerick/url "0.1.1"]
                  [org.clojure/data.zip "0.1.1"]
-                 [com.datomic/datomic-free "0.9.5561"]
+                 [org.clojure/core.cache "0.6.5"]
                  [cheshire "5.7.1"]]
   :plugins [[lein-ring "0.9.7"]
             [cider/cider-nrepl "0.15.0-SNAPSHOT"]]
-  :ring {:handler yaysp.handler/app
+  :ring {:handler tpgeocache.handler/app
          :port 8080
          :nrepl {:start? true}}
   :profiles
