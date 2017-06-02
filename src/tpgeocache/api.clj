@@ -8,24 +8,29 @@
 
 (def ^:private address-cache (atom (cache/ttl-cache-factory {} :ttl hour)))
 
-(def ^:private search-url "http://blogs.yandex.ru/search.rss")
+(def ^:private search-url "http://geo.truckerpathteam.com/maps/api/geocode/json")
 
 (defn- query-params
   [q]
-  {:text q})
+  {:address q})
+
+(defn- error-msg
+  [e]
+  (or (.getMessage e)
+      (str "Unknown error: " e)))
 
 (defn- search-request
   "Create an async request with output to out."
   [query out]
   (client/get search-url
               {:async? true
-               :socket-timeout 2000
-               :conn-timeout 2000
+               :socket-timeout 1000
+               :conn-timeout 1000
                :query-params (query-params query)}
               ;; respond callback
               #(go (>! out %))
               ;; failure callback
-              #(go (>! out (.getMessage %)))))
+              #(go (>! out (error-msg %)))))
 
 (defn- geocode
   [address]
@@ -38,7 +43,7 @@
   (if (cache/has? @address-cache address)
     (get (cache/hit @address-cache address) address)
     (let [gc (geocode address)]
-      (if (= 200 (:status gc))
+      (if (:status gc)
         (do
           (let [updated-cache (swap! address-cache #(cache/miss % address gc))]
             (get updated-cache address)))
