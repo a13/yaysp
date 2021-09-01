@@ -3,7 +3,7 @@
             [clojure.core.memoize :as memo]
             [clojure.core.async
              :as a
-             :refer [>! <! >!! <!! go chan]]))
+             :refer [>! <!! go chan]]))
 
 (def ^:private search-url "http://blogs.yandex.ru/search.rss")
 

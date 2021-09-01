@@ -1,5 +1,5 @@
 (ns yaysp.utils-test
-  (:require [clojure.test :refer :all]
+  (:require [clojure.test :refer [deftest is]]
             [yaysp.utils :as utils]))
 
 (deftest process-test

@@ -1,5 +1,5 @@
 (ns yaysp.rss-test
-  (:require [clojure.test :refer :all]
+  (:require [clojure.test :refer [deftest is]]
             [yaysp.rss :as rss]))
 
 (def rss-str
