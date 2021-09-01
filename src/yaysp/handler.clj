@@ -1,5 +1,5 @@
 (ns yaysp.handler
-  (:require [compojure.core :refer :all]
+  (:require [compojure.core :refer [defroutes GET]]
             [compojure.route :as route]
             [cheshire.core :as json]
             [yaysp.utils :as utils]
@@ -14,7 +14,7 @@
                          {:pretty true})})
 
 (defroutes app-routes
-  ;; (GET "/" [] "Hello World")
+  (GET "/" [] "Hello World")
   (GET "/search" [query] (search-handler query))
   (route/not-found "Not Found"))
 
