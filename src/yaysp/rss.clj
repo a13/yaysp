@@ -12,5 +12,3 @@
                    :item
                    :guid
                    c-d-z-xml/text))
-
-(def a (parse))
