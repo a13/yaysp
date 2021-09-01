@@ -1,0 +1,5 @@
+- name: Lint
+  uses: DeLaGuardo/clojure-lint-action@v1
+  with:
+    clj-kondo-args: --lint src test --cache false
+    github_token: ${{ secrets.GITHUB_TOKEN }}
