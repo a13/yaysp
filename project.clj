@@ -13,8 +13,7 @@
                  [org.clojure/data.zip "0.1.2"]
                  [com.datomic/datomic-free "0.9.5561.50"]
                  [cheshire "5.7.1"]]
-  :plugins [[lein-ring "0.9.7"]
-            [cider/cider-nrepl "0.15.0-SNAPSHOT"]]
+  :plugins [[lein-ring "0.9.7"]]
   :ring {:handler yaysp.handler/app
          :port 8080
          :nrepl {:start? true}}
