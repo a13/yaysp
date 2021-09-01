@@ -2,7 +2,6 @@
   (:require
    [clojure.data.xml :as c-d-xml]
    [clojure.zip :as c-zip]
-   [clojure.data.zip :as c-d-zip]
    [clojure.data.zip.xml :as c-d-z-xml]))
 
 (defn parse
